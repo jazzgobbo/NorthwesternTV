@@ -1,9 +1,13 @@
-import React from "react";
+import '/Users/jazzgobbo/Documents/GitHub/NorthwesternTV/src/App.css';
+import React, { useState } from 'react';
+import Navigation from './Home.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
-    <div className="home">
-      <div class="container">
+    <div className="home-parent">
+      <nav>{Navigation}</nav>
+      <div className="home-content">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img src="https://picsum.photos/id/1025/400"
@@ -18,7 +22,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

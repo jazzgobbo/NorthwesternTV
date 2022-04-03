@@ -1,8 +1,8 @@
 import React from "react";
 
-function NSTV2022() {
+function TV() {
   return (
-    <div className="nstv2022">
+    <div className="tv">
       <div class="container-fluid">
       <p class="m-2 text-center text-black">
             scroll for sexy content
@@ -53,4 +53,4 @@ function NSTV2022() {
   );
 }
 
-export default NSTV2022;
+export default TV;

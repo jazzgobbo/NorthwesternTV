@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.left {
+  width: 20%;
+  float: left
+}
+
+.navbar-brand {
+  color: rgb(180, 180, 180);
+}
+
+
+.cards {
+  width: 80%
+}
+
+.home {
+  width: 80%
+}
+

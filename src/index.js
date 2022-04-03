@@ -26,8 +26,8 @@ import {
   Navigation,
   Footer,
   Home,
-  NSTV2022,
-  NSTV2020,
+  TV,
+  Theatre,
 } from "./components";
 
 ReactDOM.render(
@@ -35,8 +35,8 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/nstv2022" element={<NSTV2022 />} />
-      <Route path="/nstv2020" element={<NSTV2020 />} />
+      <Route path="/TV" element={<TV />} />
+      <Route path="/Theatre" element={<Theatre />} />
     </Routes>
     <Footer />
   </Router>,

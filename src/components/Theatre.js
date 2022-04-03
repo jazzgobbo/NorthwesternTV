@@ -1,8 +1,8 @@
 import React from "react";
 
-function Contact() {
+function Theatre() {
   return (
-    <div className="nstv2020">
+    <div className="theatre">
       <div class="container-fluid">
       <p class="m-2 text-center text-black">
             scroll for sexy content
@@ -55,4 +55,4 @@ function Contact() {
 
 
 
-export default Contact;
+export default Theatre;
