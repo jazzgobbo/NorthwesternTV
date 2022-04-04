@@ -1,9 +1,24 @@
 .home-content {
-    float: right;
-    width: 80%;
+    left: 210px;
     margin: auto;
 }
 
 img {
-    align-items: center
+    align-items: center;
+}
+
+.home-parent {
+    width: 1440px;
+    height: 900px;
+    background: #1E1E1E;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.top-bar {
+    position: absolute;
+    width: 1440px;
+    height: 91px;
+    left: 0px;
+    top: 0px;   
 }

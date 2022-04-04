@@ -1,0 +1,13 @@
+.tv-parent {
+    width: 1440px;
+    height: 900px;
+    background: #1E1E1E;
+    display: flex
+}
+
+
+.tv-content {
+    float: right;
+    width: 80%;
+    margin: auto;
+}

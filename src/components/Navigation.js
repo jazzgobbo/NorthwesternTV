@@ -6,7 +6,11 @@ import './Navigation.css'
 function Navigation() {
   return (
     <div className="left">
+      <div className="northwesterntv">
+        NORTHWESTERN | TV
+      </div>
       <nav className="nav flex-column bg-dark">
+        <div className="channels">
         <NavLink className="navbar-brand" to="/">
             <text>Channels</text>
         </NavLink>
@@ -27,6 +31,7 @@ function Navigation() {
                 </NavLink>
               </li>
      
+          </div>
           </div>
       </nav>
     </div>
