@@ -11,14 +11,11 @@ function TV() {
     <div className="tv-parent">
       <nav>{Navigation}</nav>
       <div className="tv-content">
-       <div className="row align-items-center my-5">
         <video>
           <VideoList videos={listofVideos} ChannelCategory="TV"/>  
         </video>
         </div>
       </div>
-    </div>
-
   );
 }
 

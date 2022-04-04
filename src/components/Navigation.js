@@ -1,13 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './Navigation.css'
 
 
 function Navigation() {
   return (
     <div className="left">
-      <nav className="nav nav-pills flex-column bg-dark">
+      <nav className="nav flex-column bg-dark">
         <NavLink className="navbar-brand" to="/">
-            Channel
+            <text>Channels</text>
         </NavLink>
           <div>
               <li className="nav-item">
