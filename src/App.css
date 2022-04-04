@@ -44,8 +44,8 @@
 
 .navbar-brand {
   color: rgb(180, 180, 180);
+  padding: 10px;
 }
-
 
 .cards {
   width: 80%
@@ -53,5 +53,14 @@
 
 .home {
   width: 80%
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tv-content {
+  width: 80%;
 }
 
