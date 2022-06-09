@@ -11,17 +11,17 @@ const Channels = () => {
           
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/">
-                  Home
+                  <text>Home</text>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/TV">
-                  TV
+                <text>TV</text>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/Theatre">
-                  Theatre
+                  <text>Theatre</text>
                 </NavLink>
               </li>
      
