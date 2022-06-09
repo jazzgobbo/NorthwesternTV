@@ -1,13 +1,32 @@
 .tv-parent {
     width: 1440px;
     height: 900px;
-    background: #1E1E1E;
-    display: flex
+    background: #272626;
+    display: flex;
+    overflow-y: scroll;
+    z-index: 98px;
 }
 
 
 .tv-content {
-    float: right;
-    width: 80%;
-    margin: auto;
+    margin-top: 91px;
+    height: 809px;
+    width: 100%;
+}
+
+.nstv {
+    top: 91px;
+    left: 210px;
+
+}
+
+.nstv title h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    z-index: 100px;
 }

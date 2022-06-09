@@ -5,16 +5,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import VideoList from './VideoList.js';
 import listofVideos from './listofVideos.js';
 import './TV.css';
+import TopBar from './TopBar.js';
+import Video from './Video.js';
 
 // figure out how to dynamically embed youtube videos
 const TV = () => {
   return (
     <div className="tv-parent">
+      <TopBar />
       <Channels />
       <div className="tv-content">
-        <video>
-          <VideoList videos={listofVideos} ChannelCategory="TV"/>  
-        </video>
+        <section id="nstv">
+          <div className="title">
+            <h2>NSTV</h2>
+          </div>
+
+
+        </section>
+        
       </div>
     </div>
   );
