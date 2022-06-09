@@ -5,17 +5,18 @@ text {
 }
 
 .left {
-    position: absolute;
+    position: fixed;
     width: 210px;
     height: 900px;
-    left: 0px;
-    top: 0px;
+    top: 91px;
+    background: #1E1E1E;
+    z-index: 99px;
 }
 
 .channels {
     position: fixed;
     width: 210px;
-    top: 75px;
+    top: 91px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -23,26 +24,10 @@ text {
     line-height: 28px;
     text-align: center;
     /* or 200% */
-
+    z-index: 99px;
     letter-spacing: 0.2px;
 
     mix-blend-mode: lighten;
+    
 }
 
-.northwesterntv {
-    position: fixed;
-    width: 210px;
-    height: 38px;
-    top: 29px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 28px;
-    /* or 200% */
-
-    letter-spacing: 0.2px;
-
-    color: #FFFFFF;
-}

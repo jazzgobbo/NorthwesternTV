@@ -23,7 +23,7 @@ import "./index.css";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
-  Navigation,
+  Channels,
   Footer,
   Home,
   TV,
@@ -32,7 +32,7 @@ import {
 
 ReactDOM.render(
   <Router>
-    <Navigation />
+    <Channels />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/TV" element={<TV />} />

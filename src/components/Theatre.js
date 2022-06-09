@@ -1,13 +1,13 @@
 import React from "react";
-import Navigation from './Home.js';
+import Channels from './Channels.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import VideoList from './VideoList.js';
 import listofVideos from './listofVideos.js';
 
-function Theatre() {
+const Theatre = () => {
   return (
     <div className="theatre-parent">
-      <nav>{Navigation}</nav>
+     <Channels />
       <div class="container-fluid">
       <p class="m-2 text-center text-black">
             scroll for sexy content

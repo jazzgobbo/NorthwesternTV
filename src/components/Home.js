@@ -1,23 +1,22 @@
 import '/Users/jazzgobbo/Documents/GitHub/NorthwesternTV/src/App.css';
 import React, { useState } from 'react';
-import Navigation from './Navigation.js';
+import Channels from './Channels.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
+import TopBar from './TopBar.js';
 
-function Home() {
+const Home = () => {
   return (
     <div className="home-parent">
-      <div className="top-bar"></div>
-      <nav>{Navigation}</nav>
-      <div className="home-content">
-            <img src="https://picsum.photos/id/1025/400"
-              alt=":P"/>
+      <TopBar />
+      <Channels />
+      
+        <div className="text-content">
+          <h2> Welcome to <h1>NorthwesternTV</h1> </h2>
+          <h3>Happy watching</h3>
+          
 
-            <h1 class="font-weight-light">NSTV</h1>
-            <p>
-                welcome to the crib
-            </p>
-          </div>
+        </div>
         </div>
 
 

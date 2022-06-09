@@ -1,20 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './Navigation.css'
+import './Channels.css';
 
 
-function Navigation() {
+const Channels = () => {
   return (
     <div className="left">
-      <div className="northwesterntv">
-        NORTHWESTERN | TV
-      </div>
       <nav className="nav flex-column bg-dark">
         <div className="channels">
-        <NavLink className="navbar-brand" to="/">
-            <text>Channels</text>
-        </NavLink>
-          <div>
+          
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/">
                   Home
@@ -31,11 +25,10 @@ function Navigation() {
                 </NavLink>
               </li>
      
-          </div>
-          </div>
+        </div>
       </nav>
     </div>
   );
 }
 
-export default Navigation;
+export default Channels;
