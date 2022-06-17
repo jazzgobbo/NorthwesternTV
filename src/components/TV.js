@@ -12,7 +12,12 @@ import Video from './Video.js';
 const TV = () => {
   return (
     <div className="tv-parent">
+      <header className="TV-header">
       <TopBar />
+      <video controls muted>
+        <source src="http://localhost:4000/video" type="video/mp4"></source>
+      </video>
+      </header>
       <Channels />
       <div className="tv-content">
         <section id="nstv">
