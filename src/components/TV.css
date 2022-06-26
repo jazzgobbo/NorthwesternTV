@@ -9,18 +9,26 @@
 
 
 .tv-content {
-    margin-top: 91px;
-    height: 809px;
-    width: 100%;
-}
-
-.nstv {
+    position: fixed;
     top: 91px;
     left: 210px;
-
 }
 
-.nstv title h2 {
+section {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 210px;
+    top: 91px;
+}
+
+video {
+    height: 250px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+section h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -28,5 +36,16 @@
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    z-index: 100px;
+}
+
+section h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 5px;
+    letter-spacing: 0.2px;
+    color: #ffffff6a;
     z-index: 100px;
 }

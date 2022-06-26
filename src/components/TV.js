@@ -13,19 +13,18 @@ const TV = () => {
   return (
     <div className="tv-parent">
       <header className="TV-header">
-      <TopBar />
-      <video controls muted>
-        <source src="http://localhost:4000/video" type="video/mp4"></source>
-      </video>
+        <TopBar />
+        <Channels />
       </header>
-      <Channels />
       <div className="tv-content">
         <section id="nstv">
           <div className="title">
-            <h2>NSTV</h2>
+                  <h2>Ghost Story</h2>
+                  <h3>Starring Jacqui Touchet</h3> 
           </div>
-
-
+        <video controls muted>
+              <source src="http://localhost:4000/video" type="video/mp4"></source>
+        </video>
         </section>
         
       </div>
