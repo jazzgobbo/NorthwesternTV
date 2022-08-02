@@ -1,11 +1,10 @@
-
-.tv-parent {
+.theatre-parent {
     background: #272626;
     overflow-y: scroll;
 }
 
 
-.tv-content {
+.theatre-content {
     margin-top: 7%;
     margin-left: 20%;
     display: flex;

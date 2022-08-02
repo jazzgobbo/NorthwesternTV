@@ -12,21 +12,45 @@ import Video from './Video.js';
 const TV = () => {
   return (
     <div className="tv-parent">
-      <header className="TV-header">
         <TopBar />
         <Channels />
-      </header>
       <div className="tv-content">
-        <section id="nstv">
-          <div className="title">
-                  <h2>Ghost Story</h2>
-                  <h3>Starring Jacqui Touchet</h3> 
+        <section>
+          <h1>NSTV</h1> 
+          <div className="media">
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/SUwTAkHgwRI" title="B.F.R." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/kbtMW1oZkjU" title="Dove" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/z0wIMrD73Fk" title="Clown World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/CXrvBxQ7oSA" title="Jeremy L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-        <video controls muted>
-              <source src="http://localhost:4000/video" type="video/mp4"></source>
-        </video>
         </section>
-        
+        <section>
+          <h1>NITESKOOL PRODUCTIONS</h1> 
+          <div className="media">
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/GeUH7cnNGg8" title="Niteskool Sessions: Moyana Olivia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/-bIoDdlRsj4" title="Fingers Crossed - Haley Davis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/cJf1LM6VPw8" title="Niteskool Sessions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/1OOkgStzgcc" title="Welcomefest: Haley Davis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section> 
+        <section>
+          <h1>PLACEHOLDER</h1> 
+          <div className="media">
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/SUwTAkHgwRI" title="B.F.R." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/kbtMW1oZkjU" title="Dove" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/z0wIMrD73Fk" title="Clown World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/CXrvBxQ7oSA" title="Jeremy L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section> 
+        <section>
+          <h1>PLACEHOLDER</h1> 
+          <div className="media">
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/SUwTAkHgwRI" title="B.F.R." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/kbtMW1oZkjU" title="Dove" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/z0wIMrD73Fk" title="Clown World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="25%" height="20%" src="https://www.youtube.com/embed/CXrvBxQ7oSA" title="Jeremy L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section> 
       </div>
     </div>
   );
